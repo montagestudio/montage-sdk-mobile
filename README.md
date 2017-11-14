@@ -250,15 +250,22 @@ echo "SWIFT_VERSION = 3.0" |tee -a platforms/ios/cordova/*.xcconfig
 
 Fix missing gradlew
 ```
+export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home
 export CORDOVA_ANDROID_GRADLE_DISTRIBUTION_URL=http\://services.gradle.org/distributions/gradle-2.14.1-all.zip
 # OR
 export CORDOVA_ANDROID_GRADLE_DISTRIBUTION_URL=http\://services.gradle.org/distributions/gradle-4.1-all.zip
 ```
 
+Create KeyStore
+```
+keytool -genkey -v -keystore montage.keystore -alias alias_name -keyalg RSA -keysize 2048 -validity 10000
+keytool -exportcert -list -v -alias montage -keystore montage.keystore
+```
+
 Build and sign:
 ```
 cordova build android --release
-jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore my.keystore platforms/android/build/outputs/apk/android-release-unsigned.apk my 
+jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore montage.keystore platforms/android/build/outputs/apk/android-release-unsigned.apk montage 
 zipalign -v 4 platforms/android/build/outputs/apk/android-release-unsigned.apk platforms/android/build/outputs/apk/android-release-signed.apk 
 ```
 

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "170848315303",
+    "project_id": "default-demo-app-fbbb1"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:170848315303:android:cca3248ce9dcf565",
+        "android_client_info": {
+          "package_name": "com.montagestudio"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "170848315303-dsmo77ke8htq4hfie58t009sc9os3den.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "170848315303-21g26blu2vpj469sq5pl3vvo4keshcfa.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.montagestudio",
+            "certificate_hash": "21cdc5d272c2b207b230d8a231c10435306d2282"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBid2g4hvX-Mjtiqjc5CaRQ9fGeVsFPeaw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
