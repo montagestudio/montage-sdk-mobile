@@ -225,6 +225,7 @@ cordova platform remove android
 cordova platform add android
 ```
 
+Update Env:
 ```
 # update Pod repositories
 pod repo update
@@ -242,7 +243,7 @@ echo "SWIFT_VERSION = 3.0" |tee -a platforms/ios/cordova/*.xcconfig
 #### Android
 
 Fix missing gradlew
-``
+```
 export CORDOVA_ANDROID_GRADLE_DISTRIBUTION_URL=http\://services.gradle.org/distributions/gradle-2.14.1-all.zip
 ```
 
