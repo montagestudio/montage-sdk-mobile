@@ -147,6 +147,7 @@
         <icon height="58" src="assets/icon/ios/icon-58.png" width="58" />
         <icon height="50" src="assets/icon/ios/icon-50.png" width="50" />
         <icon height="100" src="assets/icon/ios/icon-100.png" width="100" />
+        <icon height="87" src="assets/icon/ios/icon-87.png" width="87" />
         <icon height="167" src="assets/icon/ios/icon-167.png" width="167" />
         <icon height="55" src="assets/icon/ios/icon-55.png" width="55" />
         <splash height="480" src="assets/screen/ios/Default~iphone.png" width="320" />
@@ -175,8 +176,8 @@
         <preference name="SplashScreenHeight" value="768" />
     </platform>
     <engine name="browser" spec="^5.0.1" />
+    <engine name="android" spec="^6.4.0" />
     <engine name="ios" spec="^4.5.3" />
-    <engine name="android" spec="^6.3.0" />
     <plugin name="cordova-plugin-whitelist" spec="^1.3.3" />
     <plugin name="cordova-plugin-media" spec="^4.0.0" />
     <plugin name="cordova-plugin-network-information" spec="^1.3.4" />

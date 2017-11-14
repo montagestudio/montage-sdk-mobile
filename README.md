@@ -31,6 +31,11 @@ OSX:
 
 ```
 $ brew install nodejs npm
+
+# For Android build
+$ brew install gradle@2.14
+
+# For ios build
 $ gem install cocoapods
 $ pod setup
 ```
@@ -246,6 +251,8 @@ echo "SWIFT_VERSION = 3.0" |tee -a platforms/ios/cordova/*.xcconfig
 Fix missing gradlew
 ```
 export CORDOVA_ANDROID_GRADLE_DISTRIBUTION_URL=http\://services.gradle.org/distributions/gradle-2.14.1-all.zip
+# OR
+export CORDOVA_ANDROID_GRADLE_DISTRIBUTION_URL=http\://services.gradle.org/distributions/gradle-4.1-all.zip
 ```
 
 Build and sign:
