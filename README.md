@@ -32,6 +32,7 @@ OSX:
 ```
 $ brew install nodejs npm
 $ gem install cocoapods
+$ pod setup
 ```
 
 Debian/Ubuntu:
