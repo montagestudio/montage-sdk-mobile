@@ -1,0 +1,37 @@
+.DS_Store
+npm-debug.log
+
+platforms/
+plugins/
+res/
+node_modules/
+.cordova
+.DS_Store
+.idea
+
+# Bower
+www/bower_components
+
+# Android
+platforms/android/assets/www
+platforms/android/bin/
+platforms/android/gen/
+platforms/android/res/xml/config.xml
+platforms/android/platform_www
+
+# FirefoxOS
+platforms/firefoxos/www
+
+# iOS
+platforms/ios/build/
+platforms/ios/CordovaLib/build/
+platforms/ios/www
+platforms/ios/*/config.xml
+platforms/ios/.staging
+platforms/ios/platform_www
+platforms/ios/*.xcodeproj/xcuserdata/
+platforms/ios/CordovaLib/CordovaLib.xcodeproj/xcuserdata/
+platforms/ios/*.xcodeproj/project.xcworkspace/
+
+# Emulator logs
+platforms/ios/cordova/console.log

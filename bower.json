@@ -1,0 +1,24 @@
+{
+  "private": true,
+  "name": "montage-sdk-modile",
+  "version": "0.0.1",
+  "description": "A re-usable montage wrapper for modile app.",
+  "homepage": "https://github.com/montagestudio/montage-sdk-mobile",
+  "authors": [
+    "Harold Thetiot <harold.thetiot@kaazing.com>"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:montagestudio/montage-sdk-mobile.git"
+  },
+  "main": "www/js/index.js",
+  "dependencies": {
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "www/bower_components",
+    "test",
+    "tests"
+  ]
+}
