@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget android-packageName="com.montagestudio" android-versionCode="2140" id="com.montagestudio" ios-CFBundleIdentifier="com.montagestudio.ios" version="0.2.14" xmlns="http://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget android-packageName="com.montagestudio" android-versionCode="2140" id="com.montagestudio" ios-CFBundleIdentifier="com.montagestudio.popcorn" version="0.2.14" xmlns="http://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>Montage Popcorn</name>
     <description>
         A Montage SDK Mobile Sample application.
