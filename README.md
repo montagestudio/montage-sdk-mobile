@@ -248,9 +248,15 @@ echo "SWIFT_VERSION = 3.0" |tee -a platforms/ios/cordova/*.xcconfig
 
 #### Android
 
+
+Fix Bad JDK:
+```
+# Error: Requirements check failed for JDK 1.8 or greater
+export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home
+```
+
 Fix missing gradlew
 ```
-export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home
 export CORDOVA_ANDROID_GRADLE_DISTRIBUTION_URL=http\://services.gradle.org/distributions/gradle-2.14.1-all.zip
 # OR
 export CORDOVA_ANDROID_GRADLE_DISTRIBUTION_URL=http\://services.gradle.org/distributions/gradle-4.1-all.zip
@@ -265,8 +271,8 @@ keytool -exportcert -list -v -alias montage -keystore montage.keystore
 Build and sign:
 ```
 cordova build android --release
-jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore montage.keystore platforms/android/build/outputs/apk/android-release-unsigned.apk montage 
-zipalign -v 4 platforms/android/build/outputs/apk/android-release-unsigned.apk platforms/android/build/outputs/apk/android-release-signed.apk 
+jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore montage.keystore platforms/android/build/outputs/apk/release/android-release-unsigned.apk montage 
+zipalign -v 4 platforms/android/build/outputs/apk/android-release-unsigned.apk platforms/android/build/outputs/apk/release/android-release-signed.apk 
 ```
 
 Deploy on test device:
