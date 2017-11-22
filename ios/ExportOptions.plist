@@ -7,11 +7,11 @@
 	<key>manifest</key>
 	<dict>
 		<key>appURL</key>
-		<string>https://montagestudio.github.io/montage-sdk-modile/dist/Montage Popcorn.ipa</string>
+		<string>https://montagestudio.github.io/montage-sdk-mobile/dist/Montage Popcorn.ipa</string>
 		<key>displayImageURL</key>
-		<string>https://montagestudio.github.io/montage-sdk-modile/dist/icon-75x57.png</string>
+		<string>https://montagestudio.github.io/montage-sdk-mobile/dist/icon-75x57.png</string>
 		<key>fullSizeImageURL</key>
-		<string>https://montagestudio.github.io/montage-sdk-modile/dist/icon-512x512.png</string>
+		<string>https://montagestudio.github.io/montage-sdk-mobile/dist/icon-512x512.png</string>
 	</dict>
 	<key>method</key>
 	<string>ad-hoc</string>
