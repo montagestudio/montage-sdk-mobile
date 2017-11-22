@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget android-packageName="com.montagestudio" android-versionCode="2140" id="com.montagestudio" ios-CFBundleIdentifier="com.montagestudio.ios" version="0.2.14" xmlns="http://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>MyApp</name>
+    <name>Montage Popcorn</name>
     <description>
         A Montage SDK Mobile Sample application.
     </description>
@@ -8,30 +8,19 @@
         Montage Dev Team
     </author>
     <content src="index.html" />
-    <access origin="gap:*" />
+    <!-- -->
     <access origin="https://*.montagestudio.com/*" subdomains="true" />
     <allow-navigation href="https://*.montagestudio.com/*" />
-    <access origin="http://192.168.1.2/*" subdomains="true" />
-    <allow-navigation href="http://192.168.1.2/*" />
-    <access origin="http://localhost:8080/*" subdomains="true" />
-    <allow-navigation href="http://localhost:8080/*" />
+    <!-- -->
+    <access origin="https://*.github.io/*" subdomains="true" />
+    <allow-navigation href="https://*.github.io/*" />
+    <!-- -->
     <access origin="https://*.google-analytics.com/*" subdomains="true" />
     <access origin="https://*.google.com/*" subdomains="true" />
     <access origin="https://*.gstatic.com/*" subdomains="true" />
     <access origin="https://fonts.googleapis.com/*" subdomains="true" />
-    <access origin="https://*.googleusercontent.com/*" subdomains="true" />
-    <access origin="https://*.googledrive.com/*" subdomains="true" />
-    <access origin="https://*.twitter.com/*" subdomains="true" />
-    <access origin="https://avatars.tcdn.co/*" subdomains="true" />
-    <access origin="https://*.facebook.net/*" subdomains="true" />
-    <access origin="https://*.facebook.com/*" subdomains="true" />
-    <access origin="https://fbcdn-profile-a.akamaihd.net/*" subdomains="true" />
-    <access origin="https://*.fbcdn.net/*" subdomains="true" />
-    <access origin="https://*.pinterest.com/*" subdomains="true" />
-    <access origin="https://*.pinimg.com/*" subdomains="true" />
-    <access origin="https://*.live.net/*" subdomains="true" />
-    <access origin="https://*.live.com/*" subdomains="true" />
-    <access origin="https://*.licdn.com/*" subdomains="true" />
+    <!-- -->
+    <access origin="gap:*" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
     <allow-intent href="tel:*" />
@@ -176,8 +165,8 @@
         <preference name="SplashScreenHeight" value="768" />
     </platform>
     <engine name="browser" spec="^5.0.1" />
-    <engine name="android" spec="^6.4.0" />
     <engine name="ios" spec="^4.5.3" />
+    <engine name="android" spec="^6.4.0" />
     <plugin name="cordova-plugin-whitelist" spec="^1.3.3" />
     <plugin name="cordova-plugin-media" spec="^4.0.0" />
     <plugin name="cordova-plugin-network-information" spec="^1.3.4" />
@@ -187,8 +176,8 @@
     <plugin name="cordova-plugin-file-transfer" spec="^1.7.0" />
     <plugin name="cordova-plugin-insomnia" spec="^4.3.0" />
     <plugin name="cordova-plugin-statusbar" spec="^2.3.0" />
-    <plugin name="cordova.plugins.diagnostic" spec="^3.7.1" />
-    <plugin name="cordova-plugin-keyboard" spec="^1.1.5" />
+    <plugin name="cordova.plugins.diagnostic" spec="^3.7.2" />
+    <plugin name="cordova-plugin-keyboard" spec="^1.2.0" />
     <plugin name="cordova-plugin-dialogs" spec="^1.3.4" />
     <plugin name="cordova-plugin-device" spec="^1.1.7" />
     <plugin name="cordova-plugin-file" spec="^5.0.0" />
@@ -210,5 +199,6 @@
     <plugin name="cordova-plugin-iosrtc" spec="^4.0.2" />
     <plugin name="phonegap-plugin-push" spec="^2.1.0">
         <variable name="SENDER_ID" value="TODO" />
+        <variable name="FCM_VERSION" value="11.0.1" />
     </plugin>
 </widget>
