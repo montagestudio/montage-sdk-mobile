@@ -1,4 +1,4 @@
-var appUrl = 'https://aurora.montagestudio.com';
+var appUrl = 'https://montagejs.github.io/popcorn/';
 
 var appLocationTimer;
 function setAppLocation(url) {
@@ -45,6 +45,8 @@ function checkConnection() {
 
 if (window.cordova) {
     window.handleOpenURL = handleOpenURL;
+} else {
+    console.warn('Unable to load Cordova.')
 }
 
 var app = {

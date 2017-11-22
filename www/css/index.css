@@ -1,3 +1,7 @@
+/*==================================================
+ * reset
+ * ===============================================*/
+
 html,
 body {
   margin: 0;
@@ -6,27 +10,19 @@ body {
   height: 100%;
 }
 
-/*==================================================
- * fonts
- * ===============================================*/
-
 body {
-    font-family: "SourceSansPro-Regular";
+    font-family: "Clear Sans", sans-serif;
     font-weight: normal;
-    color: #030303;
     overflow: auto;
-
-    
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
 
-strong {
-    font-family: "SourceSansPro-Regular";
-}
-
-input, input[type="button"], input[type="text"], input[type="reset"], input[type="submit"], textarea {
-  font-family: "SourceSansPro-Regular", "Arial";
+input, input[type="button"], 
+input[type="text"], 
+input[type="reset"], 
+input[type="submit"], 
+textarea {
   -moz-appearance: none;
   -webkit-appearance: none;
 }
@@ -44,26 +40,21 @@ video {
   z-index: inherit;
 }
 
-.ng-hide {
-  display: none;
-}
-
 /*==================================================
- * default body bg
+ * default ui
  * ===============================================*/
 
 body {
-    background: #f7f9f9;
-    font-family: Geeza Pro, SourceSansPro-Regular;
+
+    background: #212f3c url('./../img/bg.jpg') no-repeat;
+    background-size: 100%;
+
+    color: #FFF;
+    font-family: "Clear Sans", sans-serif;
 }
 
-.center {
+.text-center {
   text-align: center;
-}
-
-#offline {
-  display: none;
-  margin: 40vh auto 0 auto;
 }
 
 .btn {
@@ -80,8 +71,14 @@ body {
 }
 
 /*==================================================
- * loader
+ * default section ui
  * ===============================================*/
+
+#offline {
+  display: none;
+  margin: 40vh auto 0 auto;
+}
+
 
 #loader {
 
@@ -90,116 +87,10 @@ body {
   right:0;
 
   margin: 40vh auto 0 auto;
+  background: url('./../img/logo.svg') no-repeat;
+  background-size: 100%;
 
-  width: 60px;
-  height: 60px;
-
-  border-radius: 50%;
-  border-right: solid 4px #eee;
-  border-top: solid 4px #4477f8;
-  background: #eee;
-  box-shadow: 0 0 0 5px #eee;
-
-    -webkit-animation: spin .8s infinite linear;
-    -moz-animation: spin .8s infinite linear;
-    -ms-animation: spin .8s infinite linear;
-    -o-animation: spin .8s infinite linear;
-    animation: spin .8s infinite linear;
+  width: 250px;
+  height: 250px;
 }
 
-/*==================================================
- * loader-container
- * ===============================================*/
-
-.loader-container {
-    position: relative;
-    margin: 100px auto 20px auto;
-}
-
-/*==================================================
- * loader-mini-container
- * ===============================================*/
-
-.loader-mini-container {
-  position: relative;
-
-  margin: 10px auto 10px auto;
-  height: 50px;
-  width: 50px;
-
-  border-bottom: 3px solid #fff;
-  border-left: 3px solid #fff;
-  border-right: 3px solid #4c7df4;
-  border-top: 3px solid #4c7df4;
-  border-radius: 100%;
-}
-
-/*==================================================
- * loader spin animation
- * ===============================================*/
-
-@keyframes "spin" {
- from {
-    -webkit-transform: rotate(0deg);
-    -moz-transform: rotate(0deg);
-    -o-transform: rotate(0deg);
-    -ms-transform: rotate(0deg);
-    transform: rotate(0deg);
- }
- to {
-    -webkit-transform: rotate(359deg);
-    -moz-transform: rotate(359deg);
-    -o-transform: rotate(359deg);
-    -ms-transform: rotate(359deg);
-    transform: rotate(359deg);
- }
-
-}
-
-@-moz-keyframes spin {
- from {
-   -moz-transform: rotate(0deg);
-   transform: rotate(0deg);
- }
- to {
-   -moz-transform: rotate(359deg);
-   transform: rotate(359deg);
- }
-
-}
-
-@-webkit-keyframes "spin" {
- from {
-   -webkit-transform: rotate(0deg);
-   transform: rotate(0deg);
- }
- to {
-   -webkit-transform: rotate(359deg);
-   transform: rotate(359deg);
- }
-
-}
-
-@-ms-keyframes "spin" {
- from {
-   -ms-transform: rotate(0deg);
-   transform: rotate(0deg);
- }
- to {
-   -ms-transform: rotate(359deg);
-   transform: rotate(359deg);
- }
-
-}
-
-@-o-keyframes "spin" {
- from {
-   -o-transform: rotate(0deg);
-   transform: rotate(0deg);
- }
- to {
-   -o-transform: rotate(359deg);
-   transform: rotate(359deg);
- }
-
-}
