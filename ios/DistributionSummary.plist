@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Montage Popcorn.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>armv7</string>
+				<string>arm64</string>
+			</array>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>27EA7DB9FAC99C797703ED676FBFE4D2DE098FBA</string>
+				<key>dateExpires</key>
+				<string>11/22/18</string>
+				<key>type</key>
+				<string>iOS Distribution</string>
+			</dict>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>5A7Z7X9CUN.com.montagestudio.popcorn</string>
+				<key>aps-environment</key>
+				<string>production</string>
+				<key>com.apple.developer.team-identifier</key>
+				<string>5A7Z7X9CUN</string>
+				<key>get-task-allow</key>
+				<false/>
+			</dict>
+			<key>name</key>
+			<string>Montage Popcorn.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>4ca8d608-e841-4e5f-82f8-6e55f7331594</string>
+				<key>name</key>
+				<string>iOS Team Ad Hoc Provisioning Profile: com.montagestudio.popcorn</string>
+			</dict>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>5A7Z7X9CUN</string>
+				<key>name</key>
+				<string>Sylaps Inc</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>
