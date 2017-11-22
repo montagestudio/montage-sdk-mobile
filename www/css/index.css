@@ -90,6 +90,7 @@ body {
   background: url('./../img/logo.svg') no-repeat;
   background-size: 100%;
 
+  max-width: 25vw;
   width: 250px;
   height: 250px;
 }
