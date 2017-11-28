@@ -8,17 +8,17 @@
         Montage Dev Team
     </author>
     <content src="index.html" />
-    <access origin="https://*.montagestudio.com/*" subdomains="true" />
     <allow-navigation href="https://*.montagestudio.com/*" />
-    <access origin="https://*.github.io/*" subdomains="true" />
     <allow-navigation href="https://*.github.io/*" />
     <allow-navigation href="https://*.youtube.com/*" />
-    <access origin="https://*.google-analytics.com/*" subdomains="true" />
+    <access origin="https://*.github.io/*" subdomains="true" />
     <access origin="https://*.youtube.com/*" subdomains="true" />
     <access origin="https://*.tmdb.org/*" subdomains="true" />
     <access origin="https://*.google.com/*" subdomains="true" />
     <access origin="https://*.gstatic.com/*" subdomains="true" />
+    <access origin="https://*.google-analytics.com/*" subdomains="true" />
     <access origin="https://fonts.googleapis.com/*" subdomains="true" />
+    <access origin="https://*.montagestudio.com/*" subdomains="true" />
     <access origin="gap:*" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />

@@ -44,6 +44,11 @@
   },
   "author": "Harold Thetiot",
   "license": "Kaazing Corp",
+  "private": true,
+  "engines": {
+    "node": "4.8",
+    "npm": "2.15"
+  },
   "bugs": {
     "url": "https://github.com/montagestudio/montage-sdk-modile/issues"
   },
