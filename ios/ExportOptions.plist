@@ -4,6 +4,15 @@
 <dict>
 	<key>compileBitcode</key>
 	<false/>
+	<key>manifest</key>
+	<dict>
+		<key>appURL</key>
+		<string>https://montagestudio.github.io/montage-sdk-mobile/ios/Montage Popcorn.ipa</string>
+		<key>displayImageURL</key>
+		<string>https://montagestudio.github.io/montage-sdk-mobile/icon-76.png</string>
+		<key>fullSizeImageURL</key>
+		<string>https://montagestudio.github.io/montage-sdk-mobile/icon-1024.png</string>
+	</dict>
 	<key>method</key>
 	<string>ad-hoc</string>
 	<key>provisioningProfiles</key>
