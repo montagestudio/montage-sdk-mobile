@@ -8,7 +8,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:170848315303:android:cca3248ce9dcf565",
         "android_client_info": {
-          "package_name": "com.montagestudio"
+          "package_name": "com.montagestudio.popcorn"
         }
       },
       "oauth_client": [
@@ -20,7 +20,7 @@
           "client_id": "170848315303-21g26blu2vpj469sq5pl3vvo4keshcfa.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.montagestudio",
+            "package_name": "com.montagestudio.popcorn",
             "certificate_hash": "21cdc5d272c2b207b230d8a231c10435306d2282"
           }
         }
