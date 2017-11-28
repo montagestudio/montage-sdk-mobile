@@ -13,7 +13,8 @@ body {
     -webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
     -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
     -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
-    background: #f7f9f9;
+    background: #000;
+    color: #fff;
     font-family: "SourceSansPro-Regular", "Arial";
     font-size:12px;
     overflow: auto;
@@ -92,84 +93,6 @@ video {
   left: calc(50vw - 60px/2);
   width: 60px;
   height: 60px;
-  border-radius: 50%;
-  border-right: solid 4px #eee;
-  border-top: solid 4px #4477f8;
-  background: #eee;
-  box-shadow: 0 0 0 5px #eee;
-  -webkit-animation: spin .8s infinite linear;
-  -moz-animation: spin .8s infinite linear;
-  -ms-animation: spin .8s infinite linear;
-  -o-animation: spin .8s infinite linear;
-  animation: spin .8s infinite linear;
-}
-
-/*==================================================
- * loader spin animation
- * ===============================================*/
-
-@keyframes "spin" {
- from {
-    -webkit-transform: rotate(0deg);
-    -moz-transform: rotate(0deg);
-    -o-transform: rotate(0deg);
-    -ms-transform: rotate(0deg);
-    transform: rotate(0deg);
- }
- to {
-    -webkit-transform: rotate(359deg);
-    -moz-transform: rotate(359deg);
-    -o-transform: rotate(359deg);
-    -ms-transform: rotate(359deg);
-    transform: rotate(359deg);
- }
-
-}
-
-@-moz-keyframes spin {
- from {
-   -moz-transform: rotate(0deg);
-   transform: rotate(0deg);
- }
- to {
-   -moz-transform: rotate(359deg);
-   transform: rotate(359deg);
- }
-
-}
-
-@-webkit-keyframes "spin" {
- from {
-   -webkit-transform: rotate(0deg);
-   transform: rotate(0deg);
- }
- to {
-   -webkit-transform: rotate(359deg);
-   transform: rotate(359deg);
- }
-
-}
-
-@-ms-keyframes "spin" {
- from {
-   -ms-transform: rotate(0deg);
-   transform: rotate(0deg);
- }
- to {
-   -ms-transform: rotate(359deg);
-   transform: rotate(359deg);
- }
-
-}
-
-@-o-keyframes "spin" {
- from {
-   -o-transform: rotate(0deg);
-   transform: rotate(0deg);
- }
- to {
-   -o-transform: rotate(359deg);
-   transform: rotate(359deg);
- }
-
+  background: url('./../../img/logo.svg') no-repeat;
+  background-size: 60px;
 }
