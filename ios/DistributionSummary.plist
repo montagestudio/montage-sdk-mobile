@@ -13,9 +13,9 @@
 			<key>certificate</key>
 			<dict>
 				<key>SHA1</key>
-				<string>27EA7DB9FAC99C797703ED676FBFE4D2DE098FBA</string>
+				<string>D32362A7068A9C839F5864AF137827F763D3C2F4</string>
 				<key>dateExpires</key>
-				<string>11/22/18</string>
+				<string>11/28/18</string>
 				<key>type</key>
 				<string>iOS Distribution</string>
 			</dict>
@@ -35,9 +35,9 @@
 			<key>profile</key>
 			<dict>
 				<key>UUID</key>
-				<string>4ca8d608-e841-4e5f-82f8-6e55f7331594</string>
+				<string>519e3999-dae9-43bf-9056-69221a22a2c0</string>
 				<key>name</key>
-				<string>iOS Team Ad Hoc Provisioning Profile: com.montagestudio.popcorn</string>
+				<string>Montage Ad Hoc iOS Distribution</string>
 			</dict>
 			<key>team</key>
 			<dict>
