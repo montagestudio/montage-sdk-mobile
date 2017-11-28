@@ -47,15 +47,13 @@
             <param name="android-package" value="org.apache.cordova.InAppBrowser" />
         </feature>
         <preference name="android-theme" value="@android:style/Theme.Black.NoTitleBar" />
-        <config-file mode="add" parent="/*" target="AndroidManifest.xml">
+        <config-file parent="manifest" target="AndroidManifest.xml">
             <supports-screens android:anyDensity="true" android:largeScreens="true" android:normalScreens="true" android:resizeable="true" android:smallScreens="true" android:xlargeScreens="true" />
             <uses-feature android:name="android.hardware.touchscreen" android:required="false" />
             <uses-feature android:name="android.hardware.camera" android:required="false" />
             <uses-feature android:name="android.hardware.microphone" android:required="false" />
             <uses-permission android:name="android.permission.CAMERA" />
             <uses-permission android:name="android.permission.MICROPHONE" />
-        </config-file>
-        <config-file parent="/*" target="AndroidManifest.xml">
             <uses-permission android:name="com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY" />
         </config-file>
         <icon density="ldpi" src="assets/icon/android/ldpi.png" />

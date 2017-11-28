@@ -295,6 +295,18 @@ cd platforms/ios/build/device
 /usr/bin/xcrun -sdk iphoneos PackageApplication "$(pwd)/MyApp.app" -o "$(pwd)/MyApp.ipa"
 ```
 
+### Publising
+
+#### Apple
+
+Apple Store: https://developer.apple.com/
+
+#### Android
+
+Play Store: https://play.google.com/apps/publish/
+Samung Galaxy Apps: https://seller.samsungapps.com
+
+
 ### Github access
 
 To clone this git repository, Github require from you to deploy an ssh-key for authentication:
@@ -307,10 +319,6 @@ To clone this git repository, Github require from you to deploy an ssh-key for a
 ### Working with Microsoft Visual Studio IDE
 - https://taco.visualstudio.com/en-us/docs/get-started-first-mobile-app/
 - https://taco.visualstudio.com/en-us/docs/tutorial-package-publish-readme/
-
-```
-cordova build ios
-```
 
 ## Credits
 
