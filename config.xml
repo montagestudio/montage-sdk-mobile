@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget android-packageName="com.montagestudio" android-versionCode="2140" id="com.montagestudio" ios-CFBundleIdentifier="com.montagestudio.popcorn" version="0.2.14" xmlns="http://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget android-packageName="com.montagestudio.popcorn" android-versionCode="2140" id="com.montagestudio.popcorn" ios-CFBundleIdentifier="com.montagestudio.popcorn" version="0.2.14" xmlns="http://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>Montage Popcorn</name>
     <description>
         A Montage SDK Mobile Sample application.
@@ -13,6 +13,9 @@
     <allow-navigation href="https://*.youtube.com/*" />
     <access origin="https://*.github.io/*" subdomains="true" />
     <access origin="https://*.youtube.com/*" subdomains="true" />
+    <access origin="https://*.googlevideo.com/*" subdomains="true" />
+    <access origin="https://*.themoviedb.org/*" subdomains="true" />
+    <access origin="https://*.ytimg.com/*" subdomains="true" />
     <access origin="https://*.tmdb.org/*" subdomains="true" />
     <access origin="https://*.google.com/*" subdomains="true" />
     <access origin="https://*.gstatic.com/*" subdomains="true" />
