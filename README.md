@@ -227,8 +227,13 @@ sudo npm install cordova@7.1.0 ios-sim ios-deploy -g
 
 Regenerate Apps:
 ```
-cordova platform remove android
-cordova platform add android
+
+# Remove and then add ios platform
+cordova platform remove android --nosave
+cordova platform add android --nosave
+
+# Add Google Push Service config
+cp assets/google-services.json platforms/android/
 ```
 
 Update Env:
@@ -237,8 +242,8 @@ Update Env:
 pod repo update
 
 # Remove and then add ios platform
-cordova platform remove ios
-cordova platform add ios
+cordova platform remove ios --nosave
+cordova platform add ios --nosave
 
 # Set SWIFT_VERSION to be used
 echo "SWIFT_VERSION = 3.0" |tee -a platforms/ios/cordova/*.xcconfig
