@@ -47,7 +47,7 @@
             <param name="android-package" value="org.apache.cordova.InAppBrowser" />
         </feature>
         <preference name="android-theme" value="@android:style/Theme.Black.NoTitleBar" />
-        <config-file parent="manifest" target="AndroidManifest.xml">
+        <config-file parent="/*" target="AndroidManifest.xml">
             <supports-screens android:anyDensity="true" android:largeScreens="true" android:normalScreens="true" android:resizeable="true" android:smallScreens="true" android:xlargeScreens="true" />
             <uses-feature android:name="android.hardware.touchscreen" android:required="false" />
             <uses-feature android:name="android.hardware.camera" android:required="false" />

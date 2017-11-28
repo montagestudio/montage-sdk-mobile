@@ -89,10 +89,10 @@ video {
 #loader {
 
   position: absolute;
-  top: calc(50vh - 60px/2);
-  left: calc(50vw - 60px/2);
-  width: 60px;
-  height: 60px;
+  top: calc(50vh - 250px/2);
+  left: calc(50vw - 250px/2);
+  width: 250px;
+  height: 250px;
   background: url('./../../img/logo.svg') no-repeat;
-  background-size: 60px;
+  background-size: 250px;
 }
