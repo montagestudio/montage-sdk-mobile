@@ -143,6 +143,8 @@
         <icon height="87" src="assets/icon/ios/icon-87.png" width="87" />
         <icon height="167" src="assets/icon/ios/icon-167.png" width="167" />
         <icon height="55" src="assets/icon/ios/icon-55.png" width="55" />
+        <icon height="512" src="assets/icon/ios/icon-512.png" width="512" />
+        <icon height="1024" src="assets/icon/ios/icon-1024.png" width="1024" />
         <splash height="480" src="assets/screen/ios/Default~iphone.png" width="320" />
         <splash height="320" src="assets/screen/ios/Default-Landscape~iphone.png" width="480" />
         <splash height="960" src="assets/screen/ios/Default@2x~iphone.png" width="640" />
