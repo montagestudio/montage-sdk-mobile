@@ -303,8 +303,8 @@ Apple Store: https://developer.apple.com/
 
 #### Android
 
-Play Store: https://play.google.com/apps/publish/
-Samung Galaxy Apps: https://seller.samsungapps.com
+- Play Store: https://play.google.com/apps/publish/
+- Samsung Galaxy Apps: https://seller.samsungapps.com
 
 
 ### Github access
