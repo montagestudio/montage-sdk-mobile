@@ -59,24 +59,24 @@
             <uses-permission android:name="android.permission.MICROPHONE" />
             <uses-permission android:name="com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY" />
         </config-file>
-        <icon density="ldpi" src="assets/icon/android/ldpi.png" />
-        <icon density="mdpi" src="assets/icon/android/mdpi.png" />
-        <icon density="hdpi" src="assets/icon/android/hdpi.png" />
-        <icon density="xhdpi" src="assets/icon/android/xhdpi.png" />
-        <icon density="xxhdpi" src="assets/icon/android/xxhdpi.png" />
-        <icon density="xxxhdpi" src="assets/icon/android/xxxhdpi.png" />
-        <splash density="land-hdpi" src="assets/screen/android/splash-land-hdpi/screen.png" />
-        <splash density="land-ldpi" src="assets/screen/android/splash-land-ldpi/screen.png" />
-        <splash density="land-mdpi" src="assets/screen/android/splash-land-mdpi/screen.png" />
-        <splash density="land-xhdpi" src="assets/screen/android/splash-land-xhdpi/screen.png" />
-        <splash density="land-xxhdpi" src="assets/screen/android/splash-land-xxhdpi/screen.png" />
-        <splash density="land-xxxhdpi" src="assets/screen/android/splash-land-xxxhdpi/screen.png" />
-        <splash density="port-hdpi" src="assets/screen/android/splash-port-hdpi/screen.png" />
-        <splash density="port-ldpi" src="assets/screen/android/splash-port-ldpi/screen.png" />
-        <splash density="port-mdpi" src="assets/screen/android/splash-port-mdpi/screen.png" />
-        <splash density="port-xhdpi" src="assets/screen/android/splash-port-xhdpi/screen.png" />
-        <splash density="port-xxhdpi" src="assets/screen/android/splash-port-xxhdpi/screen.png" />
-        <splash density="port-xxxhdpi" src="assets/screen/android/splash-port-xxxhdpi/screen.png" />
+        <icon density="ldpi" src="assets/icon/android/drawable-ldpi/icon.png" />
+        <icon density="mdpi" src="assets/icon/android/drawable-mdpi/icon.png" />
+        <icon density="hdpi" src="assets/icon/android/drawable-hdpi/icon.png" />
+        <icon density="xhdpi" src="assets/icon/android/drawable-xhdpi/icon.png" />
+        <icon density="xxhdpi" src="assets/icon/android/drawable-xxhdpi/icon.png" />
+        <icon density="xxxhdpi" src="assets/icon/android/drawable-xxxhdpi/icon.png" />
+        <splash density="land-hdpi" src="assets/screen/android/drawable-land-hdpi/screen.png" />
+        <splash density="land-ldpi" src="assets/screen/android/drawable-land-ldpi/screen.png" />
+        <splash density="land-mdpi" src="assets/screen/android/drawable-land-mdpi/screen.png" />
+        <splash density="land-xhdpi" src="assets/screen/android/drawable-land-xhdpi/screen.png" />
+        <splash density="land-xxhdpi" src="assets/screen/android/drawable-land-xxhdpi/screen.png" />
+        <splash density="land-xxxhdpi" src="assets/screen/android/drawable-land-xxxhdpi/screen.png" />
+        <splash density="port-hdpi" src="assets/screen/android/drawable-port-hdpi/screen.png" />
+        <splash density="port-ldpi" src="assets/screen/android/drawable-port-ldpi/screen.png" />
+        <splash density="port-mdpi" src="assets/screen/android/drawable-port-mdpi/screen.png" />
+        <splash density="port-xhdpi" src="assets/screen/android/drawable-port-xhdpi/screen.png" />
+        <splash density="port-xxhdpi" src="assets/screen/android/drawable-port-xxhdpi/screen.png" />
+        <splash density="port-xxxhdpi" src="assets/screen/android/drawable-port-xxxhdpi/screen.png" />
     </platform>
     <platform name="ios">
         <hook src="hooks/iosrtc-swift-support.js" type="after_platform_add" />
@@ -125,8 +125,8 @@
         <config-file mode="add" parent="ITSAppUsesNonExemptEncryption" target="*-Info.plist">
             <false />
         </config-file>
-        <icon height="180" src="assets/icon/ios/icon-196.png" width="180" />
-        <icon height="60" src="assets/icon/ios/icon-60.png" width="60" />
+        <icon height="180" src="assets/icon/ios/icon-60@3x.png" width="180" />
+        <icon height="60" src="assets/icon/ios/icon-20@3x.png" width="60" />
         <icon height="120" src="assets/icon/ios/icon-60@2x.png" width="120" />
         <icon height="76" src="assets/icon/ios/icon-76.png" width="76" />
         <icon height="152" src="assets/icon/ios/icon-76@2x.png" width="152" />
@@ -136,14 +136,14 @@
         <icon height="114" src="assets/icon/ios/icon@2x.png" width="114" />
         <icon height="72" src="assets/icon/ios/icon-72.png" width="72" />
         <icon height="144" src="assets/icon/ios/icon-72@2x.png" width="144" />
-        <icon height="29" src="assets/icon/ios/icon-29.png" width="29" />
-        <icon height="58" src="assets/icon/ios/icon-58.png" width="58" />
+        <icon height="29" src="assets/icon/ios/icon-small.png" width="29" />
+        <icon height="58" src="assets/icon/ios/icon-small@2x.png" width="58" />
         <icon height="50" src="assets/icon/ios/icon-50.png" width="50" />
-        <icon height="100" src="assets/icon/ios/icon-100.png" width="100" />
-        <icon height="87" src="assets/icon/ios/icon-87.png" width="87" />
-        <icon height="167" src="assets/icon/ios/icon-167.png" width="167" />
-        <icon height="55" src="assets/icon/ios/icon-55.png" width="55" />
-        <icon height="512" src="assets/icon/ios/icon-512.png" width="512" />
+        <icon height="100" src="assets/icon/ios/icon-50@2x.png" width="100" />
+        <icon height="87" src="assets/icon/ios/icon-small@3x.png" width="87" />
+        <icon height="167" src="assets/icon/ios/icon-83.5@2x.png" width="167" />
+        <icon height="55" src="assets/icon/ios/AppIcon27.5x27.5@2x.png" width="55" />
+        <icon height="512" src="assets/icon/ios/icon-1024.png" width="512" />
         <icon height="1024" src="assets/icon/ios/icon-1024.png" width="1024" />
         <splash height="480" src="assets/screen/ios/Default~iphone.png" width="320" />
         <splash height="320" src="assets/screen/ios/Default-Landscape~iphone.png" width="480" />
