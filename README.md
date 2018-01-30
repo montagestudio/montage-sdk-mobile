@@ -32,6 +32,9 @@ OSX:
 ```
 $ brew install nodejs npm
 
+# For Splash screen generation
+brew install imagemagick
+
 # For Android build
 $ brew install gradle@2.14
 
@@ -251,8 +254,15 @@ echo "SWIFT_VERSION = 3.0" |tee -a platforms/ios/cordova/*.xcconfig
 
 ### Build Release
 
-#### Android
+#### Generate splash screen from `assets/splash.png`
 
+1. Place new image with resolution 2732x2732 in path `assets/splash.png`.
+2. npm run build:splash
+
+Note: make sure to imagemagick
+> brew install imagemagick
+
+#### Android
 
 Fix Bad JDK:
 ```
