@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget android-packageName="com.montagestudio.popcorn" android-versionCode="2150" version="0.2.15" id="com.montagestudio.popcorn" ios-CFBundleIdentifier="com.montagestudio.popcorn" xmlns="http://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget android-packageName="com.montagestudio.popcorn" android-versionCode="2150" id="com.montagestudio.popcorn" ios-CFBundleIdentifier="com.montagestudio.popcorn" version="0.2.15" xmlns="http://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>Montage Popcorn</name>
     <description>
         A Montage SDK Mobile Sample application.
@@ -65,18 +65,18 @@
         <icon density="xhdpi" src="assets/icon/android/xhdpi.png" />
         <icon density="xxhdpi" src="assets/icon/android/xxhdpi.png" />
         <icon density="xxxhdpi" src="assets/icon/android/xxxhdpi.png" />
-        <splash density="land-hdpi" src="assets/screen/android/splash-land-hdpi.png" />
-        <splash density="land-ldpi" src="assets/screen/android/splash-land-ldpi.png" />
-        <splash density="land-mdpi" src="assets/screen/android/splash-land-mdpi.png" />
-        <splash density="land-xhdpi" src="assets/screen/android/splash-land-xhdpi.png" />
-        <splash density="land-xxhdpi" src="assets/screen/android/splash-land-xxhdpi.png" />
-        <splash density="land-xxxhdpi" src="assets/screen/android/splash-land-xxxhdpi.png" />
-        <splash density="port-hdpi" src="assets/screen/android/splash-port-hdpi.png" />
-        <splash density="port-ldpi" src="assets/screen/android/splash-port-ldpi.png" />
-        <splash density="port-mdpi" src="assets/screen/android/splash-port-mdpi.png" />
-        <splash density="port-xhdpi" src="assets/screen/android/splash-port-xhdpi.png" />
-        <splash density="port-xxhdpi" src="assets/screen/android/splash-port-xxhdpi.png" />
-        <splash density="port-xxxhdpi" src="assets/screen/android/splash-port-xxxhdpi.png" />
+        <splash density="land-hdpi" src="assets/screen/android/splash-land-hdpi/screen.png" />
+        <splash density="land-ldpi" src="assets/screen/android/splash-land-ldpi/screen.png" />
+        <splash density="land-mdpi" src="assets/screen/android/splash-land-mdpi/screen.png" />
+        <splash density="land-xhdpi" src="assets/screen/android/splash-land-xhdpi/screen.png" />
+        <splash density="land-xxhdpi" src="assets/screen/android/splash-land-xxhdpi/screen.png" />
+        <splash density="land-xxxhdpi" src="assets/screen/android/splash-land-xxxhdpi/screen.png" />
+        <splash density="port-hdpi" src="assets/screen/android/splash-port-hdpi/screen.png" />
+        <splash density="port-ldpi" src="assets/screen/android/splash-port-ldpi/screen.png" />
+        <splash density="port-mdpi" src="assets/screen/android/splash-port-mdpi/screen.png" />
+        <splash density="port-xhdpi" src="assets/screen/android/splash-port-xhdpi/screen.png" />
+        <splash density="port-xxhdpi" src="assets/screen/android/splash-port-xxhdpi/screen.png" />
+        <splash density="port-xxxhdpi" src="assets/screen/android/splash-port-xxxhdpi/screen.png" />
     </platform>
     <platform name="ios">
         <hook src="hooks/iosrtc-swift-support.js" type="after_platform_add" />
@@ -156,7 +156,7 @@
         <splash height="1136" src="assets/screen/ios/Default-568h@2x~iphone.png" width="640" />
         <splash height="640" src="assets/screen/ios/Default-Landscape-568h@2x~iphone.png" width="1136" />
         <splash height="1334" src="assets/screen/ios/Default-667h.png" width="750" />
-        <splash height="750" src="assets/screen/ios/Default-Landscape-667h.png" width="1334" />
+        <splash height="750" src="assets/screen/ios/Default-Landscape-667h@2x~iphone.png" width="1334" />
         <splash height="2208" src="assets/screen/ios/Default-736h.png" width="1242" />
         <splash height="1242" src="assets/screen/ios/Default-Landscape-736h.png" width="2208" />
         <splash height="2048" src="assets/screen/ios/Default-Landscape@2x-ipad-pro.pngg" width="2732" />
