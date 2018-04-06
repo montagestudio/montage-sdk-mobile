@@ -27,7 +27,7 @@ var app = {
         // Bind any events that are required on startup. Common events are:
         // 'load', 'deviceready', 'offline', and 'online'.
         document.addEventListener('deviceready', this.onDeviceReady.bind(this), false);
-        //document.addEventListener("online",  this.onNetworkReady.bind(this), false);
+        document.addEventListener("online",  this.onNetworkReady.bind(this), false);
     },
 
     getConnection: function (resolve, reject) {
@@ -155,7 +155,6 @@ var app = {
     // 'pause', 'resume', etc.
     onDeviceReady: function() {
         var self = this,
-            appUrl = this.appLocation || this.appUrl,
             loaderEl = self.loaderEl,
             offlineEl = self.offlineEl;
 
@@ -164,11 +163,7 @@ var app = {
         loaderEl.classList.add('show');
 
         self.getConnection(function (networkState) {
-            self.setAppLocation(appUrl, function (url) {
-                console.log('onDeviceReady, will open url: ' + url);
-            }, function (err) {
-                console.log('onDeviceReady, failed cause: ' + err);
-            }); 
+            self.onNetworkReady();
         }, function (err) {
             loaderEl.classList.add('hidden');
             offlineEl.classList.remove('hidden');
